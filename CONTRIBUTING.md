@@ -44,6 +44,13 @@ dependencies.
    Hence, to run these tests, you will need Python 2.7 and Python 3.x
    (preferably 3.6+) interpreters installed on your system.
 
+Required Python packages are listed in [requirements.txt](requirements.txt) file
+in this repository. This can be done with pip with the following command:
+
+```
+$> pip install -r requirements.txt
+```
+
 The Pytype Git repository also contains few Git submodules. Before building
 the `pytype` executable or running tests, one has to ensure that the submodules
 are up to date. This can be done with the following command:
